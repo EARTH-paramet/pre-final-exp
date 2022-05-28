@@ -1,0 +1,47 @@
+/* in Home */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  width: 100%;
+  padding: 10px 10px 0px 10px;
+}
+
+.SectionList {
+  padding: 16px;
+  margin-top: 90px;
+  margin-bottom: 80px;
+}
+
+.textStyle {
+  color: #6e6e6e;
+}
+/* in ListProduct */
+.boxProduct {
+  border-radius: 18px;
+  height: 54px;
+}
+
+.item {
+  background-color: #d2d2d0;
+  border: 1px solid #ffe087;
+  box-sizing: border-box;
+  border-radius: 12px;
+  align-items: center;
+}
+.itemText {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.textCenter {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}

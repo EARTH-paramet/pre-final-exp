@@ -1,0 +1,46 @@
+{
+  "short_name": "Exp App",
+  "name": "Exp App",
+  "icons": [
+    {
+      "src": "icons.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "scope": ".",
+  "orientation": "portrait",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#FFE333",
+  "shortcuts": [
+    {
+      "name": "Add product",
+      "short_name": "add-product",
+      "url": "/scan",
+      "icons": [
+        {
+          "src": "AddProduct.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        },
+        {
+          "src": "AddProduct.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+    }
+  ]
+}

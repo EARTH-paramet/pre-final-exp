@@ -1,0 +1,100 @@
+/* disable pull to refresh  */
+body {
+  overscroll-behavior: contain;
+}
+
+.form-control:focus
+/* ,.form-select:focus  */ {
+  box-shadow: 0 0 0 0.25rem #ffc300;
+}
+/* 
+.form-select-border-radius {
+  border-radius: 0.25rem;
+} */
+
+/* .myscan video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 200%;
+  min-height: 200%;
+} */
+/* .modal.fade .modal-dialog {
+  transition: transform 0.3s ease-out;
+}
+
+.fade {
+  transition: opacity 0.15s linear;
+} */
+
+.modal-content {
+  border-radius: 25px 25px 0 0;
+}
+
+.modal-dialog {
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  pointer-events: none;
+  bottom: 0;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+}
+
+.modal.show .modal-content {
+  position: relative;
+  animation: animatebottom 0.4s;
+}
+
+@keyframes animatebottom {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+.modal.fade.show {
+  transition: opacity 0.15s linear;
+}
+.modal.fade {
+  transition: opacity 1s linear;
+}
+
+.modal .modal-content {
+  position: relative;
+  animation: animateclose 0.5s;
+}
+
+@keyframes animateclose {
+  from {
+    bottom: 0;
+    opacity: 1;
+  }
+
+  to {
+    bottom: -300px;
+    opacity: 0;
+  }
+}
+
+/* block zoom page */
+body {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
